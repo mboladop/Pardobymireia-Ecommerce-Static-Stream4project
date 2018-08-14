@@ -73,7 +73,7 @@ hr {
    overflow: hidden;
 }
 #nameig{
-    width: 45%;
+    width: 260px;
 }
 .last{
     margin-bottom: 30px;
@@ -177,7 +177,15 @@ footer {
         display: block;
     }
 }
-
+@media screen and (max-width: 767px) {
+.nameig{
+    display: none;
+}
+#imgig{
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+}
 @media screen and (max-width: 600px) {
     .carousel {
         display: none;
@@ -185,17 +193,5 @@ footer {
     .navbar_adjust{
         height:100px;
     }
-    }
-
-    /* @media (max-width: 992px){
-    .main_content {
-        width: 1500px;
-    }
 }
-    
-    @media (min-width: 768px){
-    .main_content {
-        width: 1000px;
-        }
-}
-     */ 
+   
