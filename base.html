@@ -120,9 +120,9 @@
         
         <div class="container b_w_img">
                 <div class="row">
-                    <div class="col-sm-4 bw"><img src="bw_img/bw1.png" width='100%' alt=""></div>
-                    <div class="col-sm-4 bw"><img src="bw_img/bw2.png" width='100%' alt=""></div>
-                    <div class="col-sm-4 bw"><img src="bw_img/bw3.png" width='100%' alt=""></div>
+                    <div class="col-sm-4 bw" ><img id='bw1' src="bw_img/bw1.png" width='100%' alt=""></div>
+                    <div class="col-sm-4 bw" ><img id='bw2' src="bw_img/bw2.png" width='100%' alt=""></div>
+                    <div class="col-sm-4 bw" ><img id='bw3' src="bw_img/bw3.png" width='100%' alt=""></div>
                 </div>
         </div>
     </div>
@@ -153,6 +153,23 @@
 </div>
 <script type="text/javascript" src="dwcdn/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="dwcdn/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#bw1").hover(
+        function() {$(this).attr("src","bw_img/c1.png");},
+        function() {$(this).attr("src","bw_img/bw1.png");
+    });
+    $("#bw2").hover(
+        function() {$(this).attr("src","bw_img/c2.png");},
+        function() {$(this).attr("src","bw_img/bw2.png");
+    });
+    $("#bw3").hover(
+        function() {$(this).attr("src","bw_img/c3.png");},
+        function() {$(this).attr("src","bw_img/bw3.png");
+    });
+});
+
+</script>
 </body>
 
 </html>
