@@ -58,11 +58,29 @@ hr {
     width: 100%;
     padding: 15px;
 }
+
 .bw{
-    padding-top: 20px;
+    padding-top: 30px;
     overflow: hidden;
 }
-
+#imgig{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: 1px lightgray solid;
+    border-radius: 100%;
+}
+.nameig{
+   overflow: hidden;
+}
+#nameig{
+    width: 45%;
+}
+.last{
+    margin-bottom: 30px;
+}
+.instagram_layout{
+    width: 70%;
+}
 .main_content {
     margin: 0px;
     padding: 0px;
