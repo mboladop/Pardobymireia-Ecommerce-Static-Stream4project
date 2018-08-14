@@ -99,9 +99,17 @@ footer {
     width:100%;
     background-color: white;
 }
+/*------------------------------------Mi cuenta----------------------------*/
+.container.login{
+    width: 100%;
+    height: 100%;
+}
+.navbar_adjust_login{
+    height: 50px;
+}
 
 /*------------------------------------Mobile vs----------------------------*/
-@media screen and (max-width: 947px) {
+@media screen and (max-width: 1168px) {
     .megamenu {
         display: none;
     }
