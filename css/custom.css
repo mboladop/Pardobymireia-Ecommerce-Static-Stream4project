@@ -116,6 +116,17 @@ footer {
     width:100%;
     background-color: white;
 }
+
+/*------------------------------------IG----------------------------*/
+.ig{
+    padding-top: 30px;
+    overflow: hidden;
+}
+.igyes:hover >.hover_prod {
+    background-color: black;
+    opacity:0.2;
+}
+
 /*------------------------------------Mi cuenta----------------------------*/
 .container.login{
     width: 100%;
