@@ -100,19 +100,27 @@ footer {
     width:100%;
     background-color: white;
 }
-
+/*------------------------------------PENDIENTES----------------------------*/
+.row.top.pend{
+    margin-top:20px;
+}
+.row.bottom.pend{
+    margin-bottom: 20px;
+}
 /*------------------------------------IG----------------------------*/
 #imgig{
     margin-left: 100px;
     margin-bottom: 100px;
     border: 1px lightgray solid;
     border-radius: 100%;
+    margin-top: 50px;
 }
 .nameig{
    overflow: hidden;
 }
 #nameig{
     width: 260px;
+    margin-top: 100px;
 }
 .last{
     margin-bottom: 30px;
@@ -121,11 +129,6 @@ footer {
     padding-top: 30px;
     overflow: hidden;
 }
-
-
-
-
-
 
 .igyes {
     position: relative;
@@ -158,7 +161,7 @@ footer {
   }
   
   .igyes:hover .overlay {
-    opacity: 0.4;
+    opacity: 0.5;
   }
   
   .icon {
@@ -171,24 +174,16 @@ footer {
     text-align: center;
   }
   
-  .fa-user{
+  .icons{
     display: block;
     margin: 20px;
     width:40%;
   }
 
-  .fa-user:hover {
+  .icons:hover {
     color: #eee;
     opacity: 1;
   }
-
-
-
-
-
-
-
-
 
 /*------------------------------------Mi cuenta----------------------------*/
 .container.login{
