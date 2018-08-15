@@ -57,25 +57,9 @@ hr {
     width: 100%;
     padding: 15px;
 }
-
 .bw{
     padding-top: 30px;
     overflow: hidden;
-}
-#imgig{
-    margin-left: 100px;
-    margin-bottom: 100px;
-    border: 1px lightgray solid;
-    border-radius: 100%;
-}
-.nameig{
-   overflow: hidden;
-}
-#nameig{
-    width: 260px;
-}
-.last{
-    margin-bottom: 30px;
 }
 .instagram_layout{
     width: 70%;
@@ -118,14 +102,84 @@ footer {
 }
 
 /*------------------------------------IG----------------------------*/
+#imgig{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: 1px lightgray solid;
+    border-radius: 100%;
+}
+.nameig{
+   overflow: hidden;
+}
+#nameig{
+    width: 260px;
+}
+.last{
+    margin-bottom: 30px;
+}
 .ig{
     padding-top: 30px;
     overflow: hidden;
 }
-.igyes:hover >.hover_prod {
+
+
+
+
+
+
+.igyes {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .igno{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0em;
+    bottom: 0em;
+    left: 1em;
+    right: 1em;
+    width: auto;
+    opacity: 0;
+    transition: .3s ease;
     background-color: black;
-    opacity:0.2;
-}
+  }
+  
+  .igyes:hover .overlay {
+    opacity: 0.4;
+  }
+  
+  .icon {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }
+
+
+
+
+
+
+
+
 
 /*------------------------------------Mi cuenta----------------------------*/
 .container.login{
