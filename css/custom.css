@@ -61,6 +61,18 @@ hr {
     padding-top: 30px;
     overflow: hidden;
 }
+.bwtext{
+    font-family: 'Avenir-Book', sans-serif;
+    font-size: 5em;
+    color:#001111;
+    font-weight: bold;
+    background: #fafafa;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .instagram_layout{
     width: 70%;
 }
