@@ -88,9 +88,9 @@
                     <div class="overlay2">
                         <div class="icon">
                         <a href="#" title="Add to cart">
-                            <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                            <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                         </a>
-                        <a href="#" title="Product Profile">
+                        <a href="product.html" title="Product Profile">
                             <img src="images/cart/note2.png"  class="fa icons" alt="">
                         </a>
                     </div>
@@ -104,9 +104,9 @@
                         <div class="overlay2">
                             <div class="icon">
                             <a href="#" title="Add to cart">
-                                <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                                <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                             </a>
-                            <a href="#" title="Product Profile">
+                            <a href="product.html" title="Product Profile">
                                 <img src="images/cart/note2.png"  class="fa icons" alt="">
                             </a>
                         </div>
@@ -120,9 +120,9 @@
                     <div class="overlay2">
                         <div class="icon">
                             <a href="#" title="Add to cart">
-                                <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                                <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                             </a>
-                            <a href="#" title="Product Profile">
+                            <a href="product.html" title="Product Profile">
                                 <img src="images/cart/note2.png"  class="fa icons" alt="">
                             </a>
                         </div>
@@ -138,9 +138,9 @@
                         <div class="overlay2">
                             <div class="icon">
                             <a href="#" title="Add to cart">
-                                <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                                <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                             </a>
-                            <a href="#" title="Product Profile">
+                            <a href="product.html" title="Product Profile">
                                 <img src="images/cart/note2.png"  class="fa icons" alt="">
                             </a>
                         </div>
@@ -154,9 +154,9 @@
                     <div class="overlay2">
                         <div class="icon">
                         <a href="#" title="Add to cart">
-                            <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                            <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                         </a>
-                        <a href="#" title="Product Profile">
+                        <a href="product.html" title="Product Profile">
                             <img src="images/cart/note2.png"  class="fa icons" alt="">
                         </a>
                     </div>
@@ -169,9 +169,9 @@
                 <div class="overlay2">
                     <div class="icon">
                     <a href="#" title="Add to cart">
-                        <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                        <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                     </a>
-                    <a href="#" title="Product Profile">
+                    <a href="product.html" title="Product Profile">
                         <img src="images/cart/note2.png"  class="fa icons" alt="">
                     </a>
                 </div>
@@ -187,9 +187,9 @@
                         <div class="overlay2">
                             <div class="icon">
                             <a href="#" title="Add to cart">
-                                <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                                <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                             </a>
-                            <a href="#" title="Product Profile">
+                            <a href="product.html" title="Product Profile">
                                 <img src="images/cart/note2.png"  class="fa icons" alt="">
                             </a>
                         </div>
@@ -202,9 +202,9 @@
                     <div class="overlay2">
                         <div class="icon">
                         <a href="#" title="Add to cart">
-                            <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                            <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                         </a>
-                        <a href="#" title="Product Profile">
+                        <a href="product.html" title="Product Profile">
                             <img src="images/cart/note2.png"  class="fa icons" alt="">
                         </a>
                     </div>
@@ -218,9 +218,9 @@
                         <div class="overlay2">
                             <div class="icon">
                             <a href="#" title="Add to cart">
-                                <img src="images/cart/prodcart2.png" class="fa icons" alt="">
+                                <img src="images/cart/prodcart2.png"  class="fa icons add" alt="Añadir al carrito">
                             </a>
-                            <a href="#" title="Product Profile">
+                            <a href="product.html" title="Product Profile">
                                 <img src="images/cart/note2.png"  class="fa icons" alt="">
                             </a>
                         </div>
@@ -253,6 +253,13 @@
 </div>
 <script type="text/javascript" src="dwcdn/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="dwcdn/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".add").click(
+            function() {$(this).attr("src","images/cart/prodcart2.png");},
+            function() {$(this).attr("src","images/cart/cartadd2.png");
+        });
+    });
+</script>
 </body>
-
 </html>
