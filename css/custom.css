@@ -64,8 +64,8 @@ hr {
 .bwtext{
     font-family: 'Avenir-Book', sans-serif;
     font-size: 5em;
-    color:#001111;
-    font-weight: bold;
+    color:#000000;
+    /* font-weight: bold; */
     background: #fafafa;
     opacity: 0.5;
     position: absolute;
@@ -207,6 +207,12 @@ footer {
 }
 
 /*------------------------------------Mobile vs----------------------------*/
+@media screen and (max-width: 1254px) {
+    .bwtext{
+        font-size: 2.8em;
+    }
+}
+
 @media screen and (max-width: 1168px) {
     .megamenu {
         display: none;
@@ -258,6 +264,11 @@ footer {
     }
 }
 @media screen and (max-width: 767px) {
+
+.bwtext{
+    font-size: 4em;
+}
+
 .nameig{
     display: none;
 }
