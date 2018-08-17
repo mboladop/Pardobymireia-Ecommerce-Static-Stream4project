@@ -28,7 +28,6 @@
                 <ul class="nav navbar-nav megamenu">
                         <li class="part"><a href="pendientes.html" target="_self" class="has-category"><span class="menu-title">Pendientes</span></a></li>
                         <li class="part"><a href="colgantes.html" target="_self" class="has-category"><span class="menu-title">Colgantes</span></a></li>
-                        <li class="part"><a href="pulseras.html" target="_self" class="has-category"><span class="menu-title">Pulseras</span></a></li>
                         <li class="part"><a href="aros.html" target="_self" class="has-category"><span class="menu-title">Aros</span></a></li>
                         <li class="part"><a href="anillos.html" target="_self" class="has-category"><span class="menu-title">Anillos</span></a></li>
                         <li class="part active"><a href="shopinsta.html" target="_self" class="has-category"><span class="menu-title">@pardobymireiapardo</span></a></li>
@@ -47,7 +46,6 @@
                         <ul class="nav navbar-nav">
                                 <li class="part"><a href="pendientes.html" target="_self" class="has-category"><span class="menu-title">Pendientes</span></a></li>
                                 <li class="part"><a href="colgantes.html" target="_self" class="has-category"><span class="menu-title">Colgantes</span></a></li>
-                                <li class="part"><a href="pulseras.html" target="_self" class="has-category"><span class="menu-title">Pulseras</span></a></li>
                                 <li class="part"><a href="aros.html" target="_self" class="has-category"><span class="menu-title">Aros</span></a></li>
                                 <li class="part"><a href="anillos.html" target="_self" class="has-category"><span class="menu-title">Anillos</span></a></li>
                                 <li class="part active"><a href="shopinsta.html" target="_self" class="has-category"><span class="menu-title">@pardobymireiapardo</span></a></li>
@@ -96,9 +94,9 @@
                 <img src="images/ig/1.png" width='100%' alt="">
                 <div class="overlay">
                     <div class="icon">
-                    <a href="#" title="Add to cart">
-                        <img src="images/cart/prodcart.png" class="fa icons" alt="">
-                    </a>
+                    
+                        <img id="add" src="images/cart/prodcart.png" class="fa icons" alt="">
+                   
                     <a href="#" title="Product Profile">
                         <img src="images/cart/note.png"  class="fa icons" alt="">
                     </a>
@@ -378,13 +376,13 @@
 </div>
 <script type="text/javascript" src="dwcdn/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="dwcdn/js/bootstrap.min.js"></script>
-<!-- <script>
+<script>
         $(document).ready(function(){
-            $(".igyes").hover(
-                function() {$(this).css("opacity", "0.2","content", "url('images/cart/prodcart.png')","position", "relative !important", "size", "18px");},
-                function() {$(this).css("opacity","1", "content", "none");
+            $("#add").onclick(
+                function() {$(this).src("cartadd.png");
             });
-        });
-</script> -->
+            });
+        
+        </script>
 </body>
 </html>
