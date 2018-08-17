@@ -112,6 +112,13 @@ footer {
     width:100%;
     background-color: white;
 }
+/*------------------------------------REST OF PROD HOVER----------------------------*/
+.yes {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 0px;
+  }
 /*------------------------------------PENDIENTES----------------------------*/
 .row.top.pend{
     margin-top:20px;
@@ -119,6 +126,22 @@ footer {
 .row.bottom.pend{
     margin-bottom: 40px;
 }
+.overlay2 {
+    position: absolute;
+    top: 0em;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    width: auto;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #fafafa
+  }
+  
+  .yes:hover .overlay2 {
+    opacity: 0.8;
+  }
+  
 /*------------------------------------IG----------------------------*/
 #imgig{
     margin-left: 100px;
