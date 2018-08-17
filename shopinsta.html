@@ -94,8 +94,8 @@
                 <img src="images/ig/1.png" width='100%' alt="">
                 <div class="overlay">
                     <div class="icon">
-                    
-                        <img id="add" src="images/cart/prodcart.png" class="fa icons" alt="">
+
+                        <img src="images/cart/prodcart.png" id="add" class="fa icons" alt="">
                    
                     <a href="#" title="Product Profile">
                         <img src="images/cart/note.png"  class="fa icons" alt="">
@@ -378,8 +378,9 @@
 <script type="text/javascript" src="dwcdn/js/bootstrap.min.js"></script>
 <script>
         $(document).ready(function(){
-            $("#add").onclick(
-                function() {$(this).src("cartadd.png");
+            $("#add").click(
+                function() {$(this).attr("src","images/cart/prodcart.png");},
+                function() {$(this).attr("src","images/cart/cartadd.png");
             });
             });
         
