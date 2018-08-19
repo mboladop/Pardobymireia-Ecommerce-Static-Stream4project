@@ -405,6 +405,9 @@ textarea { font-family: 'Avenir-Book', sans-serif !important; height: 80px; resi
         margin-bottom: 50px;
         margin-left: 60px;
     }
+    .cart_data{
+        display: none;
+    }
 }
 @media screen and (max-width: 600px) {
     .container.blog{
