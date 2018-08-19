@@ -134,7 +134,17 @@ footer {
 .postimg{
     max-width: 100%;
 }
-
+/*------------------------------------USER PANEL EX----------------------------*/
+.userp_ex{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.container.user_panel{
+    padding-top: 100px;
+    padding-bottom:400px; 
+    width: 80%;
+}
 /*------------------------------------REST OF PROD HOVER----------------------------*/
 .yes {
     position: relative;
@@ -407,6 +417,10 @@ textarea { font-family: 'Avenir-Book', sans-serif !important; height: 80px; resi
     }
     .cart_data{
         display: none;
+    }
+    .container.user_panel{
+        padding-top: 100px;
+        padding-bottom:400px; 
     }
 }
 @media screen and (max-width: 600px) {
