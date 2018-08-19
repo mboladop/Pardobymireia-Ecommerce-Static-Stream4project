@@ -33,8 +33,6 @@
                     <li class="part"><a href="anillos.html" target="_self" class="has-category"><span class="menu-title">Anillos</span></a></li>
                     <li class="part"><a href="shopinsta.html" target="_self" class="has-category"><span class="menu-title">@pardobymireiapardo</span></a></li>
                     <li class="part"><a href="micuenta.html" target="_self" class="has-category"><span class="menu-title"><i class="fas fa-user"></i> Mi cuenta</span></a></li>
-                    <li class="part"><a href="cartex.html" target="_self" class="has-category"><span class="menu-title"><img   width="60%" src="images/cart/cart2.png" alt="carrito"></span></a></li>
-
                 </ul>
                 <div class="dropdown">
                     <button onclick="myFunction()" type="button" class="dropbtn navbar-toggle collapsed"
@@ -53,8 +51,6 @@
                                 <li class="part"><a href="anillos.html" target="_self" class="has-category"><span class="menu-title">Anillos</span></a></li>
                                 <li class="part"><a href="shopinsta.html" target="_self" class="has-category"><span class="menu-title">@pardobymireiapardo</span></a></li>
                                 <li class="part"><a href="micuenta.html" target="_self" class="has-category"><span class="menu-title"><i class="fas fa-user"></i> Mi cuenta</span></a></li>
-                                <li class="part"><a href="cartex.html" target="_self" class="has-category"><span class="menu-title"><img   width="60%" src="images/cart/cart2.png" alt="carrito"></span></a></li>
-
                         </ul>
                     </div>
                 </div>
@@ -84,58 +80,16 @@
         </div>
     </header>
     <div class='navbar_adjust'></div>
-    <div class="container main_content">
-        <div class="row carousel_container">
-            <div class="col-md-12">
-                <!--SLIDING IMAGES-->
-                <div id="carousel_id" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel_id" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel_id" data-slide-to="1"></li>
-                    <li data-target="#carousel_id" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/carousel/carr1.jpg">
-                    </div>
-                    <div class="item">
-                        <img src="images/carousel/carr2.jpg">
-                    </div>
-                    <div class="item">
-                        <img src="images/carousel/carr3.jpg">
-                    </div>
-                </div>
+    <div class="container">
+            <div class="row top">
+                    <div class="col-sm-3 col-xs-3"></div>
+                    <div class="col-sm-3 col-xs-3"></div>
+                    <div class="col-sm-3 col-xs-3"></div>
+                    <div class="col-sm-3 col-xs-3"></div>
+                    <hr>
             </div>
-        </div>
-        
-        <div class="container b_w_img">
-                <div class="row">
-                    <div class="col-sm-4 bw" ><a href="novedades.html"><img id='bw1' src="images/bw_img/bw1.png" width='100%' alt=""><div class="bwtext">Novedades</div></a></div>
-                    <div class="col-sm-4 bw" ><a href="blog.html"><img id='bw2' src="images/bw_img/bw2.png" width='100%' alt=""><div style='padding: 0px 1.55em;'class="bwtext">Blog</div></a></div>
-                    <div class="col-sm-4 bw" ><a class='contact' href="#contactForm" target="_self" class="has-category"><img id='bw3' src="images/bw_img/bw3.png" width='100%' alt=""><div style='padding: 0px 1em;'class="bwtext">Contacta</div></a></div>
-                </div>
-        </div>
     </div>
-    
-</div>
 
-<!--CONTACT FORM POP UP-->
-<div class="container contactformbg">
-    <div id="contactForm">
-        <h1 class='cftitle'>¿Alguna duda?</h1>
-        <h4 class='cftitle'>¡Escribenos!</h4>
-            <form action='https://formspree.io/mboladop@gmail.com' method="POST">
-                <input name="name" placeholder="Nombre" type="text" required />
-                <input name="_replyto" placeholder="Email" type="email" required />
-                <input name="message" placeholder="Tema" type="text" required />
-                <textarea placeholder="Consulta"></textarea>
-                <input class="btn btn-success formbtn" type="submit" />
-                <input class="btn btn-success formbtn" type="reset" />
-            </form>
-    </div>
-</div>
-<!--END CONTACT FORM POP UP-->
     <footer>
         <div class="container footer">
                 <hr>
@@ -159,41 +113,6 @@
 </div>
 <script type="text/javascript" src="dwcdn/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="dwcdn/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("#bw1").hover(
-        function() {$(this).attr("src","images/bw_img/c1.png");},
-        function() {$(this).attr("src","images/bw_img/bw1.png");
-    });
-    $("#bw2").hover(
-        function() {$(this).attr("src","images/bw_img/c2.png");},
-        function() {$(this).attr("src","images/bw_img/bw2.png");
-    });
-    $("#bw3").hover(
-        function() {$(this).attr("src","images/bw_img/c3.png");},
-        function() {$(this).attr("src","images/bw_img/bw3.png");
-    });
-    });
-
-$(function() {
-
-// contact form animations
-$('.contact').click(function() {
-    $('#contactForm').fadeToggle();
-})
-$(document).mouseup(function(e) {
-    var container = $("#contactForm");
-
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        &&
-        container.has(e.target).length === 0) // ... nor a descendant of the container
-    {
-        container.fadeOut();
-    }
-});
-
-});
-</script>
 </body>
 
 </html>
