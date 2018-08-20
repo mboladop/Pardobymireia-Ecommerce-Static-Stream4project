@@ -3,7 +3,7 @@
 
 # **Pardo by Mireia Pardo** ecommerce Website Template
 
-![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/portfoliopardobymireiapardo.gif "portfolio Demo")
+![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Pardobymireia-Ecommerce-Static-Stream4project/master/portfoliopardobymireiapardo.gif "portfolio Demo")
  
 ## Overview
  
@@ -70,7 +70,7 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 
 ### How the project looks and works on different browsers and screen sizes:
 
-![Responsive Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/responsivepardobymireiapardo.gif "Responsive Demo")
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/Pardobymireia-Ecommerce-Static-Stream4project/master/responsivepardobymireiapardo.gif "Responsive Demo")
 
 ### BUGS:
 
