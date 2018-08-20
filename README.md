@@ -63,10 +63,8 @@ This website uses **PYTHON3** to route viewers through the site. The site is sty
 ## Credits
 
 ### Media
-- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
+- The photos used in this site were obtained from the clients database. 
+- The form design for the user login was an adapted version of the one found in [Colorlib](https://colorlib.com)
 
 ### Information
-- The information used to create this site was from a number of sources
-    - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-    - The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)@
+- The information used to create this site (materials, sizes and the rest of the pdfs) were provided by the client itself.
