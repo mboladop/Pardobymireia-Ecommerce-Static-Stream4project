@@ -84,7 +84,19 @@ hr {
     padding: 0px;
     width: 100%;
 }
-
+.topc{
+    margin-top:50px;
+}
+.top{
+    margin-top:20px;
+}
+.bottom{
+    margin-bottom: 40px;
+}
+.cabecera{
+    width: 100%;
+    
+}
 /*------CAROUSEL-----*/
 .carousel_container{
     position: relative;
@@ -164,12 +176,6 @@ footer {
 }
 
 /*------------------------------------PENDIENTES----------------------------*/
-.top{
-    margin-top:20px;
-}
-.bottom{
-    margin-bottom: 40px;
-}
 .overlay2 {
     position: absolute;
     top: 0em;
@@ -355,6 +361,7 @@ textarea { font-family: 'Avenir-Book', sans-serif !important; height: 80px; resi
 
 /*------------------------------------Mobile vs----------------------------*/
 @media screen and (max-width: 1254px) {
+    
     .bwtext{
         font-size: 2.8em;
     }
@@ -365,6 +372,9 @@ textarea { font-family: 'Avenir-Book', sans-serif !important; height: 80px; resi
 }
 
 @media screen and (max-width: 1168px) {
+    .topc{
+        margin-top:20px;
+    }
     .container.blog{
         width: 70vw;
         padding: 0em 5em;
@@ -419,6 +429,9 @@ textarea { font-family: 'Avenir-Book', sans-serif !important; height: 80px; resi
     }
 }
 @media screen and (max-width: 767px) {
+    .topc{
+        margin-top:0px;
+    }
     .container.blog{
         width: 80vw;
         padding: 0em 5em;
