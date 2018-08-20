@@ -116,7 +116,14 @@ footer {
     width:100%;
     background-color: white;
 }
+/*-------------------------------------Novedades------------------------------------*/
+.titlenovedades{
+    text-align: center;
 
+}
+.novedades{
+    width: 100%;
+}
 /*----------------------------------------BLOG--------------------------------------*/
 .container.blog{
     width: 50vw;
