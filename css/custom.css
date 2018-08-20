@@ -119,7 +119,7 @@ footer {
 /*-------------------------------------Novedades------------------------------------*/
 .titlenovedades{
     text-align: center;
-
+    padding: 20px 0px;
 }
 .novedades{
     width: 100%;
@@ -192,7 +192,7 @@ footer {
 }
 .qt_input_porduct_profile{
     margin: 0px;
-    width: 50%;
+    width: 20%;
     border: 1px #000000 solid;
 }
 /*------------------------------------IG----------------------------*/
